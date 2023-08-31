@@ -11,14 +11,14 @@ def pega_token(token):
     # Neste exemplo, consideramos que um token é uma palavra separada por espaços
     return token
 
-def analisador_lexical(calculadora_):
+def analisador_lexical(teste):
     tokens = []
     
-    with open(calculadora_, 'r') as arquivo:
+    with open(teste, 'r') as arquivo:
         for linha in arquivo:
             linha = trata_comentario_e_consome_espacos(linha)
             if linha:
-                palavras = linha.split('')
+                palavras = linha.split(' ')
                 for palavra in palavras:
                     token = pega_token(palavra)
                     tokens.append(token)
@@ -26,6 +26,8 @@ def analisador_lexical(calculadora_):
     return tokens
 
 if __name__ == "__main__":
-    nome_arquivo = "seuarquivo.txt"  # Substitua pelo nome do seu arquivo de entrada
+    nome_arquivo = "teste.txt"  # Substitua pelo nome do seu arquivo de entrada
     lista_de_tokens = analisador_lexical(nome_arquivo)
-    print(lista_de_tokens)
+    
+    linha_de_tokens = ' '.join(lista_de_tokens)
+    print(linha_de_tokens)
