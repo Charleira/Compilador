@@ -1,33 +1,32 @@
-import re
-
-def trata_comentario_e_consome_espacos(line):
-    # Remove comentários e espaços em branco da linha
-    line = re.sub(r'\/\/.*', '', line)  # Remove comentários de linha
-    line = re.sub(r'\s+', ' ', line)    # Substitui múltiplos espaços por um único espaço
-    return line.strip()
-
-def pega_token(token):
-    # Implemente a lógica para identificar tokens aqui
-    # Neste exemplo, consideramos que um token é uma palavra separada por espaços
-    return token
-
 def analisador_lexical(teste):
-    tokens = []
+    lista_tokens = []
     
     with open(teste, 'r') as arquivo:
-        for linha in arquivo:
-            linha = trata_comentario_e_consome_espacos(linha)
-            if linha:
-                palavras = linha.split(' ')
-                for palavra in palavras:
-                    token = pega_token(palavra)
-                    tokens.append(token)
+        caractere = arquivo.read(1)  # Lê o próximo caractere do arquivo
+        while caractere:
+            while (caractere == "{" or caractere == " ") and not caractere.isspace():
+                if caractere == "{":
+                    temp_token = "{"
+                    caractere = arquivo.read(1)
+                    while caractere != "}" and caractere:
+                        temp_token += caractere
+                        caractere = arquivo.read(1)
+                    temp_token += "}"
+                    lista_tokens.append(("TipoToken", temp_token))  # Insere na lista de tokens
+                while caractere.isspace() and not caractere.isspace():
+                    caractere = arquivo.read(1)
+            
+            if not caractere.isspace() and caractere != "":
+                temp_token = caractere
+                # Aqui você precisaria implementar a lógica para pegar o token completo
+                lista_tokens.append(("TipoToken", temp_token))  # Insere na lista de tokens
+            
+            caractere = arquivo.read(1)
     
-    return tokens
+    return lista_tokens
 
 if __name__ == "__main__":
     nome_arquivo = "teste.txt"  # Substitua pelo nome do seu arquivo de entrada
     lista_de_tokens = analisador_lexical(nome_arquivo)
-    
-    linha_de_tokens = ' '.join(lista_de_tokens)
-    print(linha_de_tokens)
+    for token in lista_de_tokens:
+        print(token)
