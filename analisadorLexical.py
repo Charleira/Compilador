@@ -11,10 +11,10 @@ def pega_token(token):
     # Neste exemplo, consideramos que um token é uma palavra separada por espaços
     return token
 
-def analisador_lexical(calculadora):
+def analisador_lexical(calculadora_):
     tokens = []
     
-    with open(calculadora, 'r') as arquivo:
+    with open(calculadora_, 'r') as arquivo:
         for linha in arquivo:
             linha = trata_comentario_e_consome_espacos(linha)
             if linha:
