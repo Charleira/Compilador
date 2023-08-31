@@ -18,7 +18,7 @@ def analisador_lexical(calculadora):
         for linha in arquivo:
             linha = trata_comentario_e_consome_espacos(linha)
             if linha:
-                palavras = linha.split(' asdadwdawd')
+                palavras = linha.split('')
                 for palavra in palavras:
                     token = pega_token(palavra)
                     tokens.append(token)
