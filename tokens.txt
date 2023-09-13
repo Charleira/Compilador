@@ -1,0 +1,36 @@
+Lexema | Simbolo
+------------------------------
+{este programa e o primeiro teste} | TipoToken
+} | CARACTER_ESPECIAL
+programa | sprograma
+teste | IDENTIFICADOR
+{} | TipoToken
+} | CARACTER_ESPECIAL
+} | CARACTER_ESPECIAL
+var | svar
+x | IDENTIFICADOR
+y | IDENTIFICADOR
+total | IDENTIFICADOR
+inteiro | sinteiro
+funcao | sfuncao
+soma | IDENTIFICADOR
+inteiro | sinteiro
+inicio | IDENTIFICADOR
+soma | IDENTIFICADOR
+= | sig
+x | IDENTIFICADOR
+y | IDENTIFICADOR
+fim | sfim
+inicio | IDENTIFICADOR
+leia | sleia
+x | IDENTIFICADOR
+; | sponto_virgula
+leia | sleia
+y | IDENTIFICADOR
+; | sponto_virgula
+total | IDENTIFICADOR
+= | sig
+soma | IDENTIFICADOR
+escreva | sescreva
+total | IDENTIFICADOR
+fim | sfim
