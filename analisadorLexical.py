@@ -102,6 +102,6 @@ def analisador_lexical(teste, nome_arquivo_saida):
     exportar_tokens_para_arquivo(lista_tokens, nome_arquivo_saida)
 
 if __name__ == "__main__":
-    nome_arquivo_entrada = "teste.txt"  # Substitua pelo nome do seu arquivo de entrada
-    nome_arquivo_saida = "tokens.txt"  # Nome do arquivo de saída
+    nome_arquivo_entrada = "teste_1.txt"  # Substitua pelo nome do seu arquivo de entrada
+    nome_arquivo_saida = "tokens_1.txt"  # Nome do arquivo de saída
     analisador_lexical(nome_arquivo_entrada, nome_arquivo_saida)
