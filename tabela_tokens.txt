@@ -1,0 +1,203 @@
+Lexema: pprocedimento, Símbolo: sidentificador
+Lexema: 44, Símbolo: snumero
+Lexema: vvar, Símbolo: sidentificador
+Lexema: :, Símbolo: sdoispontos
+Lexema: nnteiro, Símbolo: sidentificador
+Lexema: iinicio, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: ii, Símbolo: sidentificador
+Lexema: 00, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: vval, Símbolo: sidentificador
+Lexema: ii, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: eescreva, Símbolo: sidentificador
+Lexema: aal, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: pp1, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: eescreva, Símbolo: sidentificador
+Lexema: aal, Símbolo: sidentificador
+Lexema: ffim, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: iinicio, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ii, Símbolo: sidentificador
+Lexema: 00, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: eenquanto, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: <, Símbolo: smenor
+Lexema: 33, Símbolo: snumero
+Lexema: aaca, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: iinicio, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: lleia, Símbolo: sidentificador
+Lexema: ), Símbolo: sfecha_parenteses
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: lleitura, Símbolo: sidentificador
+Lexema: oo, Símbolo: sidentificador
+Lexema: aalor, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ppara, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: qqual, Símbolo: sidentificador
+Lexema: ee, Símbolo: sidentificador
+Lexema: uuer, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ccalcular, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: ffatorial, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ii, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: ii, Símbolo: sidentificador
+Lexema: ;, Símbolo: sponto_virgula
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: jj, Símbolo: sidentificador
+Lexema: ffat, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: eescreva, Símbolo: sidentificador
+Lexema: ), Símbolo: sfecha_parenteses
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ffim, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: aagora, Símbolo: sidentificador
+Lexema: oomeca, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: cchamada, Símbolo: sidentificador
+Lexema: oos, Símbolo: sidentificador
+Lexema: rroce, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ddimentos, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: ;, Símbolo: sponto_virgula
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: , Símbolo: 
+Lexema: pp4, Símbolo: sidentificador
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 11, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 22, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 33, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 11, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 22, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 33, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 11, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 22, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 33, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: qque, Símbolo: sidentificador
+Lexema: aai, Símbolo: sidentificador
+Lexema: hhamar, Símbolo: sidentificador
+Lexema: 11, Símbolo: snumero
+Lexema: , Símbolo: 
+Lexema: ffim, Símbolo: sidentificador
