@@ -1,0 +1,25 @@
+Lexema | Simbolo
+------------------------------
+Teste | IDENTIFICADOR
+3 | NUMERO
+programa | sprograma
+inteiro | sinteiro
+se | sse
+x | IDENTIFICADOR
+> | smaior
+< | smenor
+ou | sou
+= | sig
+a | IDENTIFICADOR
+y | IDENTIFICADOR
+entao | sentao
+faca | sfaca
+x | IDENTIFICADOR
+: | CARACTER_ESPECIAL
+= | sig
+y | IDENTIFICADOR
+! | CARACTER_ESPECIAL
+= | sig
+z | IDENTIFICADOR
+; | sponto_virgula
+fim | sfim

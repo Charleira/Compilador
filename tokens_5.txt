@@ -1,0 +1,17 @@
+Lexema | Simbolo
+------------------------------
+Este | IDENTIFICADOR
+teste | IDENTIFICADOR
+apenas | IDENTIFICADOR
+verifica | IDENTIFICADOR
+pontuacao | IDENTIFICADOR
+{} | TipoToken
+} | CARACTER_ESPECIAL
+( | sabre_parenteses
+) | sfecha_parenteses
+. | sponto
+, | svirgula
+: | CARACTER_ESPECIAL
+; | sponto_virgula
+[ | CARACTER_ESPECIAL
+] | CARACTER_ESPECIAL

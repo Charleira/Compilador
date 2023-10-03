@@ -1,0 +1,11 @@
+Lexema | Simbolo
+------------------------------
+programa | sprograma
+teste2 | IDENTIFICADOR
+var | svar
+x | IDENTIFICADOR
+inteiro | sinteiro
+inicio | IDENTIFICADOR
+x | IDENTIFICADOR
+1 | NUMERO
+fim | sfim

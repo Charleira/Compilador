@@ -1,0 +1,65 @@
+Lexema | Simbolo
+------------------------------
+programa | sprograma
+test | IDENTIFICADOR
+var | svar
+v | IDENTIFICADOR
+inteiro | sinteiro
+i | IDENTIFICADOR
+max | IDENTIFICADOR
+juro | IDENTIFICADOR
+: | CARACTER_ESPECIAL
+inteiro | sinteiro
+inicio | IDENTIFICADOR
+repita | IDENTIFICADOR
+{ leia o valor  inicial} | TipoToken
+} | CARACTER_ESPECIAL
+leia | sleia
+v | IDENTIFICADOR
+; | sponto_virgula
+{leia a taxa de juros } | TipoToken
+} | CARACTER_ESPECIAL
+leia | sleia
+juro | IDENTIFICADOR
+; | sponto_virgula
+{ Leia o periodo } | TipoToken
+} | CARACTER_ESPECIAL
+; | sponto_virgula
+leia | sleia
+max | IDENTIFICADOR
+; | sponto_virgula
+valor | IDENTIFICADOR
+= | sig
+1 | NUMERO
+i | IDENTIFICADOR
+= | sig
+1 | NUMERO
+enquanto | senquanto
+i | IDENTIFICADOR
+< | smenor
+= | sig
+max | IDENTIFICADOR
+{ (1+juro) elevado a n } | TipoToken
+} | CARACTER_ESPECIAL
+faca | sfaca
+inicio | IDENTIFICADOR
+valor | IDENTIFICADOR
+= | sig
+valor | IDENTIFICADOR
+( | sabre_parenteses
+1 | NUMERO
+juro | IDENTIFICADOR
+; | sponto_virgula
+i | IDENTIFICADOR
+= | sig
+i | IDENTIFICADOR
+1 | NUMERO
+fim | sfim
+escreva | sescreva
+valor | IDENTIFICADOR
+ate | IDENTIFICADOR
+v | IDENTIFICADOR
+= | sig
+- | smenos
+1 | NUMERO
+fim | sfim

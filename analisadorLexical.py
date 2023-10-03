@@ -307,5 +307,11 @@ def main():
     imprime_tabela(tabela_tokens)
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
 
+=======
+    nome_arquivo_entrada = "teste_6.txt"  # Substitua pelo nome do seu arquivo de entrada
+    nome_arquivo_saida = "tokens_6.txt"  # Nome do arquivo de saída
+    analisador_lexical(nome_arquivo_entrada, nome_arquivo_saida)
+>>>>>>> 5800fee75b0fbead4d1e0481ceb422754188a366

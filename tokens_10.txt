@@ -1,0 +1,74 @@
+Lexema | Simbolo
+------------------------------
+procedimento | sprocedimento
+p4 | IDENTIFICADOR
+var | svar
+i | IDENTIFICADOR
+inteiro | sinteiro
+inicio | IDENTIFICADOR
+i | IDENTIFICADOR
+= | sig
+0 | NUMERO
+val | IDENTIFICADOR
+= | sig
+i | IDENTIFICADOR
+escreva | sescreva
+val | IDENTIFICADOR
+; | sponto_virgula
+p1 | IDENTIFICADOR
+escreva | sescreva
+val | IDENTIFICADOR
+fim | sfim
+inicio | IDENTIFICADOR
+i | IDENTIFICADOR
+= | sig
+0 | NUMERO
+enquanto | senquanto
+i | IDENTIFICADOR
+< | smenor
+3 | NUMERO
+faca | sfaca
+inicio | IDENTIFICADOR
+leia | sleia
+n | IDENTIFICADOR
+; | sponto_virgula
+{leitura do valor
+
+
+
+		para o qual se quer
+
+
+
+		calcular o fatorial
+    } | TipoToken
+} | CARACTER_ESPECIAL
+i | IDENTIFICADOR
+= | sig
+i | IDENTIFICADOR
+1 | NUMERO
+j | IDENTIFICADOR
+= | sig
+fat | IDENTIFICADOR
+escreva | sescreva
+j | IDENTIFICADOR
+; | sponto_virgula
+fim | sfim
+{agora comeca a chamada dos proce
+			dimentos
+							} | TipoToken
+} | CARACTER_ESPECIAL
+; | sponto_virgula
+p4 | IDENTIFICADOR
+{que vai chamar p1 
+	que vai chamar p2
+	que vai chamar p3
+	que vai chamar p1
+	que vai chamar p2
+	que vai chamar p3
+	que vai chamar p1
+	que vai chamar p2
+	que vai chamar p3
+	que vai chamar p1} | TipoToken
+} | CARACTER_ESPECIAL
+fim | sfim

@@ -1,0 +1,24 @@
+Lexema | Simbolo
+------------------------------
+Teste2 | IDENTIFICADOR
+: | CARACTER_ESPECIAL
+= | sig
+9 | NUMERO
+999999 | NUMERO
+* | smult
+if | IDENTIFICADOR
+var | svar
+> | smaior
+program | IDENTIFICADOR
+entao | sentao
+se | sse
+enquanto | senquanto
+! | CARACTER_ESPECIAL
+= | sig
+/ | CARACTER_ESPECIAL
+faca | sfaca
+x | IDENTIFICADOR
+booleano | sbooleano
+; | sponto_virgula
+; | sponto_virgula
+; | sponto_virgula
