@@ -1,0 +1,166 @@
+Lexema: procedimento, Simbolo: sprocedimento
+Lexema: 4, Simbolo: snumero
+Lexema: var, Simbolo: svar
+Lexema: :, Simbolo: sdoispontos
+Lexema: teiro, Simbolo: sidentificador
+Lexema: inicio, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: :=, Simbolo: satribuicao
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: al, Simbolo: sidentificador
+Lexema: i, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: screva, Simbolo: sidentificador
+Lexema: al, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: 1, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: screva, Simbolo: sidentificador
+Lexema: al, Simbolo: sidentificador
+Lexema: fim, Simbolo: sfim
+Lexema: , Simbolo: 
+Lexema: inicio, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: :=, Simbolo: satribuicao
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: nquanto, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: aca, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: nicio, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: leia, Simbolo: sleia
+Lexema: ), Simbolo: sfecha_parenteses
+Lexema: , Simbolo: 
+Lexema: eitura, Simbolo: sidentificador
+Lexema: o, Simbolo: sidentificador
+Lexema: alor, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: para, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: ual, Simbolo: sidentificador
+Lexema: e, Simbolo: se
+Lexema: uer, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: calcular, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: atorial, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: i, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: +, Simbolo: sadicao
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: j, Simbolo: sidentificador
+Lexema: fat, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: escreva, Simbolo: sescreva
+Lexema: ), Simbolo: sfecha_parenteses
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: im, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: agora, Simbolo: sidentificador
+Lexema: omeca, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: hamada, Simbolo: sidentificador
+Lexema: os, Simbolo: sidentificador
+Lexema: roce, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: imentos, Simbolo: sidentificador
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: ;, Simbolo: sponto_virgula
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: , Simbolo: 
+Lexema: 4, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 1, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 2, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 3, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 1, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 2, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 3, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 1, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 2, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 3, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: ue, Simbolo: sidentificador
+Lexema: ai, Simbolo: sidentificador
+Lexema: hamar, Simbolo: sidentificador
+Lexema: 1, Simbolo: snumero
+Lexema: , Simbolo: 
+Lexema: fim, Simbolo: sfim

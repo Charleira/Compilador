@@ -1,99 +1,76 @@
-class AnalisadorSintatico:
+from queue import deque
+
+class SyntacticAnalysis:
+    """
+    Syntactic Analysis is a class that implements the syntactic analysis of a given input.
+    """
+
     def __init__(self):
-        self.rotulo = 1
-        self.token = None
+        self.__stack: deque = deque()
+        self.__queue: deque = deque()
+        self.__label = 1  # Initial label
 
-    def lexico(self):
-        # Implemente a função léxico aqui
-        pass
+    def __generate_label(self):
+        label = self.__label
+        self.__label += 1
+        return label
 
-    def insere_tabela(self, lexema, tipo, valor1, valor2):
-        # Implemente a função insere_tabela aqui
-        pass
+    def __program(self, input_data: list) -> tuple:
+        """
+        Program is a method that implements the program syntax analysis.
+        Args:
+            input_data (list): List of tuples containing:
+                - str: Token symbol
+                - str: Token lexeme
+        Returns:
+            tuple: A tuple containing:
+                - bool: True if the input data is accepted, False otherwise
+                - list: List of errors messages
+        """
+        accepted: bool = True
+        errors: list = []
 
-    def analisa_bloco(self):
-        self.lexico()
-        self.analisa_et_variaveis()
-        self.analisa_subrotinas()
-        self.analisa_comandos()
+        self.__label = 1  # Reset the label counter for each new program
 
-    def analisa_et_variaveis(self):
-        if self.token.simbolo == 'svar':
-            self.lexico()
-            while self.token.simbolo == 'sidentificador':
-                self.analisa_variaveis()
-                if self.token.simbolo == 'spontvirg':
-                    self.lexico()
-                else:
-                    print("ERRO")
+        # Process the input_data according to the program syntax rules
 
-    def analisa_subrotinas(self):
-        flag = 0
-        if self.token.simbolo in ['sprocedimento', 'sfuncao']:
-            auxrot = self.rotulo
-            self.gera('', 'JMP', self.rotulo, '')
-            self.rotulo += 1
-            flag = 1
+        return (accepted, errors)
 
-        while self.token.simbolo in ['sprocedimento', 'sfuncao']:
-            if self.token.simbolo == 'sprocedimento':
-                self.analisa_declaracao_procedimento()
-            else:
-                self.analisa_declaracao_funcao()
+    def analyze(self, input_data: list) -> tuple:
+        """
+        Analyze is a method that initiates the syntactic analysis.
+        Args:
+            input_data (list): List of tuples containing:
+                - str: Token symbol
+                - str: Token lexeme
+        Returns:
+            tuple: A tuple containing:
+                - bool: True if the input data is accepted, False otherwise
+                - list: List of errors messages
+        """
+        return self.__program(input_data)
 
-            if self.token.simbolo == 'sponto_virgula':
-                self.lexico()
-            else:
-                print("ERRO")
+def read_input_from_file(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+    # Assuming each line contains a token symbol and token lexeme separated by a space
+    input_data = [line.strip().split() for line in lines]
+    return input_data
 
-        if flag == 1:
-            self.gera(auxrot, None, '', '')  # inicio do principal
-
-    def analisa_declaracao_procedimento(self):
-        # Implemente a função analisa_declaracao_procedimento aqui
-        pass
-
-    def analisa_declaracao_funcao(self):
-        # Implemente a função analisa_declaracao_funcao aqui
-        pass
-
-    def analisa_expressao(self):
-        # Implemente a função analisa_expressao aqui
-        pass
-
-    def analisa_expressao_simples(self):
-        # Implemente a função analisa_expressao_simples aqui
-        pass
-
-    def analisa_termo(self):
-        # Implemente a função analisa_termo aqui
-        pass
-
-    def analisa_fator(self):
-        # Implemente a função analisa_fator aqui
-        pass
-
-def main():
-    analisador = AnalisadorSintatico()
-    analisador.lexico()
-    if analisador.token.simbolo == 'sprograma':
-        analisador.lexico()
-        if analisador.token.simbolo == 'sidentificador':
-            analisador.insere_tabela(analisador.token.lexema, "nomedeprograma", "", "")
-            analisador.lexico()
-            if analisador.token.simbolo == 'spontovirgula':
-                analisador.analisa_bloco()
-                if analisador.token.simbolo == 'sponto':
-                    # Implemente a verificação do fim do arquivo ou comentário aqui
-                    print("Sucesso")
-                else:
-                    print("ERRO")
-            else:
-                print("ERRO")
-        else:
-            print("ERRO")
-    else:
-        print("ERRO")
+def write_output_to_file(file_path, output_data):
+    with open(file_path, 'w') as file:
+        for item in output_data:
+            file.write(str(item) + '\n')
 
 if __name__ == "__main__":
-    main()
+    input_file_path = 'sint2.txt'  # Path to the input file
+    output_file_path = 'resSint2.txt'  # Path to the output file
+
+    input_data = read_input_from_file(input_file_path)
+
+    syntactic_analyzer = SyntacticAnalysis()
+    result, errors = syntactic_analyzer.analyze(input_data)
+
+    output_data = ["Accepted: " + str(result), "Errors: " + str(errors)]
+
+    write_output_to_file(output_file_path, output_data)
