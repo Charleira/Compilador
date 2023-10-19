@@ -1,3 +1,5 @@
+import pickle
+
 # Variáveis globais
 linha = ''
 posicao = 0
@@ -34,7 +36,7 @@ class Token:
             "nao": "snao"
         }
 
-        self.simbolo = reserved_mapping.get(lexema, "sidentificador")
+        self.simbolo = reserved_mapping.get(lexema, 'sidentificador')
 
 def ler_caractere():
     global caractere, posicao, linha
@@ -77,13 +79,11 @@ def trata_operador_relacional():
             ler_caractere()
         else:
             token.simbolo = 'snao'
-    elif caractere in {"<", ">", "="}:
+    elif caractere in {"<", ">"}:
         if caractere == "<":
             token.simbolo = 'smenor'
         elif caractere == ">":
             token.simbolo = 'smaior'
-        elif caractere == "=":
-            token.simbolo = 'sig'
         ler_caractere()
         if caractere == "=":
             token.lexema += caractere
@@ -91,8 +91,6 @@ def trata_operador_relacional():
                 token.simbolo = 'smenorig'
             elif token.simbolo == 'smaior':
                 token.simbolo = 'smaiorig'
-            elif token.simbolo == 'sig':
-                token.simbolo = 'sig'
             ler_caractere()
 
 def trata_pontuacao():
@@ -112,13 +110,13 @@ def trata_pontuacao():
 
 def trata_identificador_palavra_reservada():
     global caractere, token
-    id = caractere
+    id_ = caractere  # Alterei o nome da variável para evitar conflito com a função id() do Python.
     ler_caractere()
     while caractere.isalpha() or caractere.isdigit() or caractere == "_":
-        id += caractere
+        id_ += caractere
         ler_caractere()
-    token.lexema = id
-    token.map_reserved(id)  # Use map_reserved to map reserved words to symbols
+    token.lexema = id_
+    token.map_reserved(id_)  # Use map_reserved to map reserved words to symbols
 
 def trata_digito():
     global caractere, token
@@ -147,32 +145,18 @@ def pega_token():
         trata_operador_relacional()
     elif caractere in {";", ",", "(", ")", "."}:
         trata_pontuacao()
-    ler_caractere()  # Adicione esta linha
 
-    tabela_tokens.append(token)  # Append the token after processing
+    tabela_tokens.append(token)
 
-def imprime_tabela(tabela):
-    with open('tabela_tokens.txt', 'w') as f:
-        for t in tabela:
-            f.write(f"Lexema: {t.lexema}, Simbolo: {t.simbolo}\n")
 
-def le_arquivo_teste():
-    global linha, posicao, caractere
-    with open('teste_10.txt', 'r') as f:
-        for linha in f:
-            posicao = 0
-            if posicao < len(linha):
-                caractere = linha[posicao]
-                while caractere:
-                    pega_token()
-                    if posicao < len(linha):
-                        caractere = linha[posicao]
-                    else:
-                        caractere = ''  # Fim da linha
+with open('teste_10.txt', 'r') as f:
+    for linha in f:
+        # Processar cada linha do arquivo
+        posicao = 0
+        while posicao < len(linha):
+            pega_token()
 
-def main():
-    le_arquivo_teste()
-    imprime_tabela(tabela_tokens)
-
-if __name__ == "__main__":
-    main()
+    # Salvar a tabela de tokens em um arquivo
+with open('tabela_tokens.txt', 'w') as f:
+    for token in tabela_tokens:
+        f.write(f"Lexema: {token.lexema}, Símbolo: {token.simbolo}\n")
